@@ -1,0 +1,5 @@
+<div class="app-post-list">
+  <app-post *ngFor="let post of posts" [post]="post" class="app-post-list__item">
+    <button (click)="openPost(post)" class="app-button">READ MORE</button>
+  </app-post>
+</div>

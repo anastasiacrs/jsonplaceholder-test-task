@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+.app-page-header{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.app-button{
+  padding: 0.5rem;
+  background: none;
+  border: solid 1px black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  &:hover{
+    background: black;
+    color: white;
+  }
+}
+
+.app-mb-1{
+  margin-bottom: 1rem;
+}

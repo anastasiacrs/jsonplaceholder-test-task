@@ -1,0 +1,6 @@
+<header class="app-page-header">POST PAGE</header>
+<button (click)="goBackToList()" class="app-button app-mb-1">GO BACK TO LIST</button>
+<app-post [post]="post"></app-post>
+<div class="app-post-comments">
+  <app-comment *ngFor="let comment of comments" [comment]="comment" class="app-comment"></app-comment>
+</div>

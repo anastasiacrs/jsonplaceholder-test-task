@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+.app-comment {
+  background-color: lighten(darkblue, 70%);
+  padding: 1rem;
+  border: solid 1px lighten(darkblue, 60%);
+  border-radius: 0.5rem;
+  color: darkblue;
+
+}
+
+.app-comment__header {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app-comment__additional-top-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: lighten(darkblue, 40%);
+}
+
+.app-comment__body {
+  // overflow-wrap: break-word;
+}
+
+.app-comment__footer {
+  margin-top: 0.25rem;
+  text-align: right;
+}
+

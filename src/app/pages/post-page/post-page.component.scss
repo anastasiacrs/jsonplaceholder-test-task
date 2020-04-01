@@ -1,0 +1,12 @@
+
+:host {
+  display: block;
+}
+
+.app-post-comments {
+  margin-top: 2rem;
+}
+
+.app-comment + .app-comment {
+  margin-top: 1rem;
+}
